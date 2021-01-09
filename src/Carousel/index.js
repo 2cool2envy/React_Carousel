@@ -96,7 +96,7 @@ function Carousel({ details }) {
     return (
         <div>
             <form>
-                <input ref={inputVal} type='text' />
+                <input placeholder='Search by Title' ref={inputVal} type='text' />
                 <button onClick={filterValue} type='button' > Filter</button>
                 <button type='button' > Reset</button>
                 {`Total count: ${parentValue.length}`}
